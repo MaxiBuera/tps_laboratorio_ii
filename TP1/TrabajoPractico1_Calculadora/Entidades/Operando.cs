@@ -10,16 +10,27 @@ namespace Entidades
     {
         private double numero;
 
+        /// <summary>
+        /// Constructor que asigna a número el valor pasado por parámetro de tipo double
+        /// </summary>
+        /// <param name="numero">Valor con el que se inicializara el atributo numero</param>
         public Operando(double numero)
         {
             this.numero = numero;
         }
 
+        /// <summary>
+        /// Constructor que asigna a número el valor pasado por parámetro de tipo string
+        /// </summary>
+        /// <param name="numero">Valor con el que se inicializara el atributo numero validado</param>
         public Operando(string numero)
         {
             this.numero = ValidarOperando(numero);
         }
 
+        /// <summary>
+        /// Constructor por defecto. Inicializa el valor en 0
+        /// </summary>
         public Operando() : this(0)
         {
 
@@ -30,11 +41,16 @@ namespace Entidades
             set { this.numero = ValidarOperando(value); }
         }
 
-        public double ValidarOperando(string strNumero)
+        /// <summary>
+        /// Valida que el operando sea valido
+        /// </summary>
+        /// <param name="numero">operando</param>
+        /// <returns>Devuelve el operando, si no es valido devuelve 0</returns>
+        public double ValidarOperando(string numero)
         {
             double oprandoValido;
 
-            if (double.TryParse(strNumero, out oprandoValido))
+            if (double.TryParse(numero, out oprandoValido))
             {
                 return oprandoValido;
             }
@@ -44,6 +60,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Valida que el parametro sea un numero binario
+        /// </summary>
+        /// <param name="binario">parametro a validar</param>
+        /// <returns>Devuelve true si la cadena es binario, sino devuelve false</returns>
         private bool EsBinario(string binario)
         {
             foreach (char letra in binario)
@@ -57,9 +78,14 @@ namespace Entidades
             return true;
         }
 
+        /// <summary>
+        /// convierte el numero pasado por parametro a decimal
+        /// </summary>
+        /// <param name="numero">parametro a convertir</param>
+        /// <returns>Devuelve el numero decimal o un mensaje de error</returns>
         public string BinarioDecimal(string numero)
         {
-            string retorno = "Valor inválido";
+            string numeroAux = "Valor invalido";
             double numASumar = 0;
 
             if (EsBinario(numero))
@@ -70,16 +96,22 @@ namespace Entidades
                     if (numero[i] == '1')
                     {
                         double len = numero.Length - 1 - i;
-                        numASumar += Math.Pow(2, len);//los voy sumando here
+                        numASumar += Math.Pow(2, len);
                     }
                 }
 
-                retorno = numASumar.ToString();
+                numeroAux = numASumar.ToString();
             }
 
-            return retorno;
+            return numeroAux;
 
         }
+
+        /// <summary>
+        /// Convierte un numero decimal a binario 
+        /// </summary>
+        /// <param name="numero">numero a convertir</param>
+        /// <returns>Devuelve un numero binario, en caso de ser posible. Caso contrario retornará "Valor inválido"</returns>
         public string DecimalBinario(double numero)
         {
             string numeroBinario = string.Empty;
@@ -103,6 +135,12 @@ namespace Entidades
 
             return numeroBinario;
         }
+
+        /// <summary>
+        /// Convierte un numero decimal a binario 
+        /// </summary>
+        /// <param name="numero">numero a convertir</param>
+        /// <returns>Devuelve un numero binario, en caso de ser posible. Caso contrario retornará "Valor inválido"</returns>
         public string DecimalBinario(string numero)
         {
             double numeroVerificado;
@@ -111,6 +149,7 @@ namespace Entidades
             return DecimalBinario(numeroVerificado);
         }
 
+        //Sobrecargas de operadores
         public static double operator +(Operando n1, Operando n2)
         {
             return n1.numero + n2.numero;

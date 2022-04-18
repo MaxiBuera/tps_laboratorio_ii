@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj": {}
+    "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\Maxii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\maximiliano.e.buera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maximiliano.e.buera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj": {
+    "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj",
+        "projectUniqueName": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj",
         "projectName": "MiCalculadora",
-        "projectPath": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj",
-        "packagesPath": "C:\\Users\\Maxii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\obj\\",
+        "projectPath": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\MiCalculadora.csproj",
+        "packagesPath": "C:\\Users\\maximiliano.e.buera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\MiCalculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maxii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maximiliano.e.buera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\Maxii\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj"
+              "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\maximiliano.e.buera\\Documents\\tps_laboratorio_ii\\TP1\\TrabajoPractico1_Calculadora\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -115,7 +115,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

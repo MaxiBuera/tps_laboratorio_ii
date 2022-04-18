@@ -18,6 +18,11 @@ namespace MiCalculadora
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Evento que se ejecuta al inicio del form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
             Limpiar();
@@ -30,6 +35,9 @@ namespace MiCalculadora
             cmbOperador.Items.Add("/");
         }
 
+        /// <summary>
+        /// reinicia los elementos del form
+        /// </summary>
         private void Limpiar()
         {
             this.txtNumero1.Clear();
@@ -40,6 +48,13 @@ namespace MiCalculadora
             this.btnConvertirADecimal.Enabled = false;
         }
 
+        /// <summary>
+        /// realiza una operacion entre los numeros pasados por parametros
+        /// </summary>
+        /// <param name="num1">primer numero</param>
+        /// <param name="num2">segundo numero</param>
+        /// <param name="operador">operador</param>
+        /// <returns></returns>
         public static double Operar(string num1, string num2, char operador)
         {
             Operando operando1 = new Operando(num1);
@@ -48,12 +63,21 @@ namespace MiCalculadora
             return Calculadora.Operar(operando1, operando2, operador);
         }
 
-
+        /// <summary>
+        /// metodo que cierra el form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// metodo que convierte el resultado de un numero decimal a binario
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             Operando binario = new Operando();
@@ -62,6 +86,11 @@ namespace MiCalculadora
             btnConvertirADecimal.Enabled = true;
         }
 
+        /// <summary>
+        /// metodo que convierte el resultado de un numero binario a decimal
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             Operando binario = new Operando();
@@ -70,6 +99,11 @@ namespace MiCalculadora
             btnConvertirADecimal.Enabled = false;
         }
 
+        /// <summary>
+        /// evento que se ejecuta al intentar cerrar el form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (e.CloseReason == CloseReason.UserClosing)
@@ -82,6 +116,11 @@ namespace MiCalculadora
             }
         }
 
+        /// <summary>
+        /// metodo que ejecuta la operacion con los numeros y el operando ingresados
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
             //Deben ser ingresados los dos operandos
@@ -113,6 +152,11 @@ namespace MiCalculadora
             }
         }
 
+        /// <summary>
+        /// metodo que llama al metodo limpiar. Sirve para reiniciar los elementos del form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
