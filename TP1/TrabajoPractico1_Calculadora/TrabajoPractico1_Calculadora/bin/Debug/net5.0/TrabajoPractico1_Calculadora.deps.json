@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TrabajoPractico1_Calculadora/1.0.0": {
+        "runtime": {
+          "TrabajoPractico1_Calculadora.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TrabajoPractico1_Calculadora/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

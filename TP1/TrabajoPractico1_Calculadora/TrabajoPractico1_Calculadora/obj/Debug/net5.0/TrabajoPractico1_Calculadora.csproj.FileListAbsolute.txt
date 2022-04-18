@@ -1,0 +1,16 @@
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.exe
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.deps.json
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.runtimeconfig.json
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.runtimeconfig.dev.json
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.dll
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\bin\Debug\net5.0\TrabajoPractico1_Calculadora.pdb
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.csproj.AssemblyReference.cache
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.AssemblyInfoInputs.cache
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.AssemblyInfo.cs
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.dll
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\refint\TrabajoPractico1_Calculadora.dll
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.pdb
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\TrabajoPractico1_Calculadora.genruntimeconfig.cache
+C:\Users\Maxii\Documents\tps_laboratorio_ii\TP1\TrabajoPractico1_Calculadora\TrabajoPractico1_Calculadora\obj\Debug\net5.0\ref\TrabajoPractico1_Calculadora.dll
