@@ -8,7 +8,7 @@ namespace Entidades
 {
     public class Suv : Vehiculo
     {
-        public Suv(string chasis, EMarca marca, ConsoleColor color)
+        public Suv(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
         }
@@ -19,7 +19,7 @@ namespace Entidades
         {
             get
             {
-                return this.Tamanio;
+                return ETamanio.Grande;
             }
         }
 
@@ -28,9 +28,8 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("SUV");
-            ////sb.AppendLine(base);
+            sb.AppendLine(base.Mostrar());
             sb.AppendLine($"TAMAÑO : {this.Tamanio}");
-            sb.AppendLine("");
             sb.AppendLine("---------------------");
 
             return sb.ToString();
