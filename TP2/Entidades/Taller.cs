@@ -91,7 +91,9 @@ namespace Entidades
             foreach (Vehiculo v in taller.vehiculos)
             {
                 if (v == vehiculo)
+                {
                     return taller;
+                }
             }
 
             if (taller.espacioDisponible > taller.vehiculos.Count)
